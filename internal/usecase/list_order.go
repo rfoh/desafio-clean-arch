@@ -1,6 +1,6 @@
 package usecase
 
-import "github.com/devfullcycle/20-CleanArch/internal/entity"
+import "github.com/rfoh/desafio-clean-arch/internal/entity"
 
 type ListOrderOutputDTO struct {
 	Orders []OrderOutputDTO `json:"orders"`

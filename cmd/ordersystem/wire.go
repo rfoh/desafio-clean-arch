@@ -6,12 +6,12 @@ package main
 import (
 	"database/sql"
 
-	"github.com/devfullcycle/20-CleanArch/internal/entity"
-	"github.com/devfullcycle/20-CleanArch/internal/event"
-	"github.com/devfullcycle/20-CleanArch/internal/infra/database"
-	"github.com/devfullcycle/20-CleanArch/internal/infra/web"
-	"github.com/devfullcycle/20-CleanArch/internal/usecase"
-	"github.com/devfullcycle/20-CleanArch/pkg/events"
+	"github.com/rfoh/desafio-clean-arch/internal/entity"
+	"github.com/rfoh/desafio-clean-arch/internal/event"
+	"github.com/rfoh/desafio-clean-arch/internal/infra/database"
+	"github.com/rfoh/desafio-clean-arch/internal/infra/web"
+	"github.com/rfoh/desafio-clean-arch/internal/usecase"
+	"github.com/rfoh/desafio-clean-arch/pkg/events"
 	"github.com/google/wire"
 )
 
